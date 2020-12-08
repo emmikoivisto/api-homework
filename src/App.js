@@ -1,9 +1,10 @@
+import SongsContainer from './containers/SongsContainer';
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <>
+      <SongsContainer/>
+    </>
   );
 }
 
