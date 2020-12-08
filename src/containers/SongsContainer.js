@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import SongDetail from "../components/SongDetail";
 import SongList from "../components/SongList";
 
 const SongsContainer = () => {
@@ -22,8 +21,6 @@ const SongsContainer = () => {
 
     return (
         <>
-            <p>This is the song container</p>
-            {/* <SongDetail/> */}
             <SongList songs={songs} loaded={loaded}/>
         </>
     )

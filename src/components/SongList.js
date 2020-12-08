@@ -1,4 +1,5 @@
 import SongDetail from './SongDetail';
+import './Songs.css';
 
 const SongList = ({songs, loaded}) => {
 
@@ -13,11 +14,12 @@ const SongList = ({songs, loaded}) => {
     })
 
     return (
-        <>
+        <div className="songs">
+            <h1>iTUNES UK TOP 20</h1>
             <ul>
                 {songListItems}
             </ul>
-        </>
+        </div>
     )
 }
 

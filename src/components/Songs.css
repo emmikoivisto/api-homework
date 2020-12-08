@@ -1,0 +1,8 @@
+.songs {
+    width: 350px;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #498edd;
+    font-family: fantasy;
+  }
