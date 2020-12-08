@@ -1,7 +1,12 @@
-const SongDetail = () => {
+import SongList from './SongList';
+
+const SongDetail = ({song}) => {
+
+
     return (
         <>
-            <p>this is the song detail box</p>
+            <h2>Title: {song["im:name"].label}</h2>
+            <p>Artist: {song["im:artist"].label}</p>
         </>
     )
 }
