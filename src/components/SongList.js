@@ -9,7 +9,7 @@ const SongList = ({songs, loaded}) => {
 
     const songListItems = songs.map((song, index) => {
         return (
-            <SongDetail song={song} position={index + 1}/>
+            <SongDetail song={song} key={index}/>
         )
     })
 
